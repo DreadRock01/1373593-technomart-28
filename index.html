@@ -77,7 +77,7 @@
         <a href="#">Все популярные товары</a>
       </div>
       <div>
-        <article>
+        <article tabindex="0">
           <div>
             <a href="#">Купить</a>
             <a href="#">В закладки</a>
@@ -87,7 +87,7 @@
           <del>32500 Р.</del>
           <span>25500 Р.</span>
         </article>
-        <article>
+        <article tabindex="0">
           <div>
             <a href="#">Купить</a>
             <a href="#">В закладки</a>
@@ -97,7 +97,7 @@
           <del>22500 Р.</del>
           <span>15500 Р.</span>
         </article>
-        <article>
+        <article tabindex="0">
           <div>
             <a href="#">Купить</a>
             <a href="#">В закладки</a>
@@ -107,7 +107,7 @@
           <del>30500 Р.</del>
           <span>25500 Р.</span>
         </article>
-        <article>
+        <article tabindex="0">
           <div>
             <a href="#">Купить</a>
             <a href="#">В закладки</a>
@@ -221,19 +221,41 @@
 
     <p>2010—2019 Компания «Техномарт»<br>Все права защищены</p>
     <div>
-      <a href="#">
-        <img src="" alt="">
-      </a>
-      <a href="#" alt="">
-        <img src="" alt="">
-      </a>
-      <a href="#">
-        <img src="" alt="">
-      </a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
     </div>
     <p>Обратная связь:<br><a href="#">mail@htmlacademy.ru</a></p>
     <p>Разработано —<br><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
   </footer>
+
+  <div>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" placeholder="Имя Фамилия" required>
+      </p>
+      <p>
+        <label for="e-mail">Ваш e-mail:</label>
+        <input type="email" name="e-mail" placeholder="email@example.com" required>
+      </p>
+      <p>
+        <label for="text">Текст письма:</label>
+        <input type="text" name="text" placeholder="В свободной форме" required>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+    <button type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </div>
+
+  <div>
+    <img src="img/map-popup.jpg" width="943" height="449" alt="Крупная карта">
+    <button type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </div>
 </body>
 
 </html>
