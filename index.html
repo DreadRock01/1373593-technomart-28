@@ -46,8 +46,8 @@
 
   <main>
     <div>
-      <section>
-        <div class="promo-materials">
+      <section class="promo-block">
+        <div class="promo-materials new">
           <h3 class="promo-title">Материалы</h3>
           <a class="promo-btn" href="#">На любой вкус</a>
         </div>
@@ -66,26 +66,27 @@
             <label class="" for="product-1">Влево</label>
             <label class="" for="product-2">Вправо</label>
           </div>
-          <div>
+          <div class="slide visible">
             <h3>Перфораторы</h3>
             <p>Настоящие мужские игрушки</p>
             <img src="img/slide-1.jpg" width="620" height="266" alt="Мужчина с перфоратором">
             <a class="btn" href="catalog.html">Открыть каталог</a>
           </div>
-          <div class="promo-drill">
+          <div class="slide">
             <h3>Дрели</h3>
             <p>Соседям на радость!</p>
             <img src="img/slide-2.jpg" width="620" height="266" alt="Мужчина с дрелью">
             <a class="btn" href="catalog.html">Открыть каталог</a>
           </div>
-          <div class="promo-discount">
-            <h3 class="promo-title">Скидки 50%</h3>
-            <a class="promo-btn" href="#">На 350 товаров</a>
-          </div>
-          <div class="promo-delivery">
-            <h3 class="promo-title">Доставка</h3>
-            <a class="promo-btn" href="#">Бесплатно</a>
-          </div>
+        </div>
+        <div class="promo-discount">
+          <h3 class="promo-title">Скидки 50%</h3>
+          <a class="promo-btn" href="#">На 350 товаров</a>
+        </div>
+        <div class="promo-delivery">
+          <h3 class="promo-title">Доставка</h3>
+          <a class="promo-btn" href="#">Бесплатно</a>
+        </div>
       </section>
     </div>
 
@@ -94,7 +95,7 @@
         <h2 class="title">Популярные товары:</h2>
         <a class="btn" href="#">Все популярные товары</a>
       </div>
-      <div> <!--Нужен ли див? В каталоге мы не ставили почему-то-->
+      <div>   <!--див пока оставил-->
         <article class="product" tabindex="0">
           <div class="product-controls">
             <a class="product-buy" href="#">Купить</a>
@@ -105,7 +106,7 @@
           <del>32500 Р.</del>
           <span>25500 Р.</span>
         </article>
-        <article class="product" tabindex="0">
+        <article class="product new" tabindex="0">
           <div class="product-controls">
             <a class="product-buy" href="#">Купить</a>
             <a class="product-bookmark" href="#">В закладки</a>
@@ -125,7 +126,7 @@
           <del>30500 Р.</del>
           <span>25500 Р.</span>
         </article>
-        <article class="product" tabindex="0">
+        <article class="product new" tabindex="0">
           <div class="product-controls">
             <a class="product-buy" href="#">Купить</a>
             <a class="product-bookmark" href="#">В закладки</a>
@@ -145,49 +146,49 @@
 
       <div>
         <a class="manufacturers" href="#">
-          <img src="img/bosch.png" width="126" height="37" alt="Bosch">
+          <img src="img/bosch.png" width="220" height="145" alt="Bosch">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/makita.png" width="123" height="40" alt="Makita">
+          <img src="img/makita.png" width="220" height="145" alt="Makita">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/dewalt.png" width="146" height="44" alt="DeWalt">
+          <img src="img/dewalt.png" width="220" height="145" alt="DeWalt">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/interskol.png" width="200" height="88" alt="Interskol">
+          <img src="img/interskol.png" width="220" height="145" alt="Interskol">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/hitachi.png" width="169" height="31" alt="Hitachi">
+          <img src="img/hitachi.png" width="220" height="145" alt="Hitachi">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/lg.png" width="121" height="73" alt="LG">
+          <img src="img/lg.png" width="220" height="145" alt="LG">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/aeg.png" width="151" height="96" alt="AEG">
+          <img src="img/aeg.png" width="220" height="145" alt="AEG">
         </a>
         <a class="manufacturers" href="#">
-          <img src="img/metabo.png" width="204" height="69" alt="Metabo">
+          <img src="img/metabo.png" width="220" height="145" alt="Metabo">
         </a>
       </div>
     </section>
 
     <section class="services">
       <h2 class="title">Сервисы</h2>
-      <p class="text">Хороший интернет-магазин отличается от плохого не только ценами!
+      <p>Хороший интернет-магазин отличается от плохого не только ценами!
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
       </p>
-      <dl>
+      <dl class="services-list">
         <dt class="active">Доставка</dt>
-        <dd class="delivery">
+        <dd>
           <h2 class="title">Доставка</h2>
-          <p class="text">Мы с удовольствием доставим ваш товар прямо
+          <p>Мы с удовольствием доставим ваш товар прямо
             к вашему подъезду совершенно бесплатно!
             Ведь мы неплохо заработаем,
             поднимая его на ваш этаж!
           </p>
         </dd>
         <dt>Гарантия</dt>
-        <dd class="visually-hidden">
+        <dd">
           <h2>Гарантия</h2>
           <p>
             Если купленный у нас товар поломается или заскрипит,
@@ -198,24 +199,24 @@
           </p>
         </dd>
         <dt>Кредит</dt>
-        <dd class="visually-hidden">
+        <dd>
           <h2>Кредит</h2>
           <p>
             Залезть в долговую яму стало проще!
             Кредитные консультанты придут вам на помощь.
           </p>
-          <a href="#">Отправить заявку</a>
+          <a class="btn" href="#">Отправить заявку</a>
         </dd>
       </dl>
     </section>
 
     <section class="about">
       <h3 class="title">Компания «Техномарт»</h3>
-      <p class="text">
+      <p>
         Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства на оставит
         равнодушными любителей сэкономить на гастарбайтерах.
       </p>
-      <p class="text">
+      <p>
         Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со многими компаниями:
       </p>
       <ul>
@@ -227,7 +228,7 @@
     </section>
     <section class="contacts">
       <h3 class="title">Контакты</h3>
-      <p class="text">
+      <p>
         Вы можете забрать товар сами, заехав в наш офис:
       </p>
       <a href="#">
@@ -263,7 +264,8 @@
         <a href="#"></a>
       </div>
       <p class="feedback-contact">Обратная связь:<br><a href="#">mail@htmlacademy.ru</a></p>
-      <p class="developer-contact">Разработано —<br><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+      <p class="developer-contact">Разработано —<br><a
+          href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
     </div>
   </footer>
 
