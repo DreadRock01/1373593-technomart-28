@@ -194,7 +194,7 @@ img {
 
 .search-input:hover,
 .search-input:focus {
-  background: #f2f6f8;        /* Временно для теста. */
+  background: #f2f6f8;        /* Временно для теста */
   color: var(--basic-black);
 }
 
