@@ -1429,6 +1429,7 @@ img {
 
 .breadcrumbs a {
   position: relative;
+  color: var(--basic-black);
 }
 
 .breadcrumbs a:first-child {
@@ -1460,9 +1461,6 @@ img {
   right: -25px;
 }
 
-.breadcrumbs a:visited {
-  color: var(--basic-black);
-}
 
 .catalog-title {
   font-family: "Cuprum", "Arial", sans-serif;
