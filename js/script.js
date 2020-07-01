@@ -21,7 +21,7 @@ window.addEventListener("keydown", function (evt) {
   }
 });
 
-var lostButton = document.querySelector(".writeus-btn");
+var writeUsButton = document.querySelector(".writeus-btn");
 var writeUsModal = document.querySelector(".writeus");
 var close = writeUsModal.querySelector(".close-btn");
 var writeUsForm = writeUsModal.querySelector(".writeus-form");
@@ -39,7 +39,7 @@ try {
   isStorageSupport = false;
 }
 
-lostButton.addEventListener("click", function (evt) {
+writeUsButton.addEventListener("click", function (evt) {
   evt.preventDefault();
   writeUsModal.classList.add("writeus-show");
   if (storageName) {
@@ -89,10 +89,10 @@ var basketContinue = basket.querySelector(".btn-continue");
 
 
 for (var linkBasket of linkBasketAll) {
-linkBasket.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  basket.classList.add("modal-show");
-});
+  linkBasket.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    basket.classList.add("modal-show");
+  });
 }
 
 basketContinue.addEventListener("click", function (evt) {
