@@ -19,7 +19,9 @@
           <img src="img/logo-technomart.svg" width="108" height="18" alt="Техномарт">
         </a>
         <form class="search-panel" action="https://echo.htmlacademy.ru" method="get">
-          <input class="search-input" type="search" name="search" placeholder="Поиск:" aria-label="Поиск по сайту">
+          <label for="search-field"></label>
+          <input class="search-input" id="search-field" type="search" name="search" placeholder="Поиск:"
+            aria-label="Поиск по сайту">
           <button class="search-btn" type="submit" value="Поиск" aria-label="Отправить поисковый запрос">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17">
               <path fill="#fff"
@@ -90,10 +92,10 @@
                 <div class="range-filter">
                   <div class="range-controls">
                     <div class="scale">
-                      <div class="bar" style="width: 30%; margin-left: 20%;"></div>
+                      <div class="bar"></div>
                     </div>
-                    <div class="toggle toggle-min" tabindex="0" style="left: 20%;"></div>
-                    <div class="toggle toggle-max" tabindex="0" style="left: 50%;"></div>
+                    <div class="toggle toggle-min" tabindex="0"></div>
+                    <div class="toggle toggle-max" tabindex="0"></div>
                   </div>
                   <div class="price-controls">
                     <label class="min-price">
@@ -174,11 +176,11 @@
               <a href="#" class="sorting-item">По типу</a>
               <a href="#" class="sorting-item">По функционалу</a>
               <div class="sorting-arrows">
-                <a href="#" class="sort-ascending sorting-current" title="По возрастанию"><svg
+                <a class="sorting-arrow sorting-current" href="#" title="По возрастанию"><svg
                     xmlns="http://www.w3.org/2000/svg" width="11" height="10">
                     <path fill="#C5C5C5" d="M5.5 0L0 10h11z" /></svg></a>
-                <a href="#" class="sort-descending" title="По убыванию"><svg xmlns="http://www.w3.org/2000/svg"
-                    width="11" height="10">
+                <a class="sorting-arrow" href="#" title="По убыванию"><svg xmlns="http://www.w3.org/2000/svg" width="11"
+                    height="10">
                     <path fill="#C5C5C5" d="M5.5 10L0 0h11" /></svg></a>
               </div>
             </div>
