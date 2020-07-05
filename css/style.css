@@ -258,7 +258,6 @@ img {
   content: "";
   display: inline-block;
   vertical-align: middle;
-  vertical-align: inherit;
   padding-right: 9px;
   background-image: url("../img/icon-cart.svg");
   background-repeat: no-repeat;
