@@ -1373,7 +1373,7 @@ img {
   font-weight: 400;
   background-color: var(--sort-filter-background);
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 16px;
   border-radius: 2px;
 }
 
@@ -1381,7 +1381,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 16px 10px 20px;
   margin-bottom: 28px;
 }
 
@@ -1414,7 +1414,7 @@ img {
 }
 
 .sorting-arrows a:first-child {
-  margin-right: 14px;
+  margin-right: 17px;
 }
 
 .sorting-arrow:hover path,
